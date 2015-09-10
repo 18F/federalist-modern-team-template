@@ -1,7 +1,11 @@
+.usa-disclaimer {
+  text-align: center;
+}
 .usa-site-navbar {
-  border-bottom: 1px solid gray;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.usa-site-navbar .usa-grid {
+  position: relative;
 }
 .usa-site-navbar .usa-grid::before,
 .usa-site-navbar .usa-grid::after {
@@ -12,22 +16,53 @@
   float: left;
   max-width: 32rem;
 }
+
+#logo a {
+  border: none;
+}
 #logo h1 {
   font-size: 3rem;
   margin: 0;
 }
-ul.usa-unstyled-list a {
+.usa-nav-list a {
   border-bottom: 0;
   text-decoration: none;
 }
-ul.usa-nav-list {
+.usa-nav-list {
+  bottom: 20px;
   float: right;
-  line-height: 2em;
-  height: 2em;
+  margin-top: 1em;
+  position: absolute;
+  right: 3rem;
 }
 li.usa-menu-item {
+  font-size: 18px;
   display: inline;
-  margin-right: 2em;
+  padding: 1.3em;
+}
+.usa-menu-item:hover {
+  background-color: $text-color;
+}
+.usa-menu-item:hover a {
+  color: $button-text-color;
+}
+@media (max-width: 500px) {
+  #logo,.usa-nav-list {
+    float: none;
+    text-align: center;
+  }
+  #logo img {
+    width: 90px;
+  }
+  ul.usa-nav-list {
+    bottom: 0;
+    position: relative;
+    right: 0;
+    width: 100%;
+  }
+  li.usa-menu-item {
+    display: block;
+  }
 }
 li.usa-menu-item:last-child {
   margin-right: 0;

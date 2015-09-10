@@ -1,16 +1,14 @@
 ---
 layout: home
 permalink: /
-title: Home
-hero-image: /assets/img/sky.jpg
-hero-text: The mission statement will be visible at the top-center of the homepage.
-hero-button-text: Call to action
-hero-button-link: 'https://18f.gsa.gov'
+hero-image: /assets/img/potus.jpg
+hero-text: "We believe that government works best when it's built for people. "
+hero-button-text: What we do
+hero-button-link: /about/
+hero-youtube-id: ShvaavFq92s
 ---
-# Welcome
+## President Obama ( ) that makes the Social and Behavioral Sciences Team a permanent part of government
 
-Reach out. Get six alpha pups in here for a focus group we need more paper and low-hanging fruit can we take this offline. Mobile friendly best practices, nor thought shower, nor timeframe blue money your work on this project has been really impactful, nor drink from the firehose. Killing it productize for baseline the procedure and samepage your department organic growth productize quick win. Deploy guerrilla marketing high turnaround rate reach out, yet old boys club globalize. Message the initiative knowledge process outsourcing win-win, yet time to open the kimono horsehead offer, yet get buy-in. Customer centric proceduralize time to open the kimono.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.hero-youtube-id }}?modestbranding=1&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 
-## Section Header
-
-[Check out more](/projects)
+On September 15, 2015, President Obama [ ] that makes the Social and Behavioral Sciences Team permanent and directs agencies to integrate behavioral insights into the policy and program design process. Following the President's announcement, SBST released its first annual report that highlights results from their initial year of applying research insights to improve outcomes for Americans.
