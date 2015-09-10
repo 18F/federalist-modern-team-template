@@ -1,29 +1,60 @@
 # Site settings
-title: Your Team Name
-email: you@yourteam.gov
-description: Put a nifty sentence about what your team does.
+title: SBST
+description: We are a cross-agency team with backgrounds in a diversity of fields, including economics, policy, psychology, law, medicine, statistics and political science. What unifies us is our commitment to using what research tells us about how people make decisions to better serve Americans and improve government efficiency.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+logo: /assets/img/logos/sbstgov-gray.png
 
-# Build settings
-markdown: kramdown
+colors:
+  background: '#fdfdfd'
+  button:
+    background: '#126ca7'
+    hover: '#134050'
+    text: '#fff'
+  headers: '#126ca7'
+  text: '#000000'
+  projects:
+    accent: 'rgb(249, 131, 74)'
+  contact:
+    background: '#126ca7'
+    text: '#fff'
+    button:
+      background: '#f2c446'
+      text: '#134050'
+  footer:
+    background: '#4c4c4c'
+    text: '#fff'
 
 analytics:
-  code: '<<UA-CODE-TO-COME>>'
+  google:
+    code: '<<UA-CODE-TO-COME>>'
+  dap:
+    agency: GSA
+    subagency: SBST
 
-contact:
-  agencyname: Your Team Name
-  agencyimage: https://pages.18f.gov/usfwds/assets/img/logo-img.png
-  email: you@yourteam.gov
-  phonenumber: 800-555-5555
-  form:
-    url: https://docs.google.com/forms/d/1Tsdm_2spbxWnmTFMrH5eHxpOAN9W4LB3eaMMXJ1N0rU/formResponse
-    name: entry.1710277143
-    email: entry.1440502332
-    comments: entry.722489988
-    hidden:
+forms:
+- type: newsletter
+  url: https://docs.google.com/forms/d/1Tsdm_2spbxWnmTFMrH5eHxpOAN9W4LB3eaMMXJ1N0rU/formResponse
+  button: Subscribe
+  privacypolicy:
+    name: GSA Privacy and Security Notice
+    url: https://gsa.gov
+  fields:
+    - type: email
+      name: entry.1440502332
+      label: Email Address
+    - type: hidden
       name: fbzx
       value: -7861934959779167198
 
-federalist:
-  root: '/pages'
+footer:
+  name: Social & Behavioral Sciences Team
+  image: /assets/img/gsa-logo-dark.jpg
+  email: sbst@gsa.gov
+  twitter:
+    - usgsa
+    - whitehouseostp
+  text: This site is run by the General Services Administration for the National Science and Technology Council's Subcommittee on the Social and Behavioral Sciences Team.
+
+# Build settings
+markdown: kramdown

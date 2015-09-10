@@ -5,20 +5,32 @@ layout: base
 <section>
   <div class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
     <div class="usa-grid">
-      <div class="usa-width-one-sixth">&nbsp;</div>
-      <div class="usa-width-two-thirds hero-content">
+      <div class="usa-width-whole hero-content">
         <h1>{{ page.hero-text }}</h1>
-        <a class="usa-button usa-button-big" href="{{ page.hero-button-link }}">{{ page.hero-button-text }}</a>
+        <a class="usa-button" href="{{ page.hero-button-link | prepend: site.baseurl }}">{{ page.hero-button-text }}</a>
       </div>
-      <div class="usa-width-one-sixth usa-end-row">&nbsp;</div>
     </div>
   </div>
 </section>
 
-<section>
+<section class="content">
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-end-row">
       {{ content }}
+      {% if page.content-button-link %}
+        <div class="content-button">
+          <a href="{{ page.content-button-link | prepend: site.baseurl }}" class="usa-button">{{ page.content-button-text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="banner tagline">
+  <div class="usa-grid">
+    <div class="usa-width-one-whole usa-end-row">
+      <h2>We are a cross-agency team with backgrounds in a diversity of fields, including economics, policy, psychology, law, medicine, statistics and political science.</h2>
+      <p>What unifies us is our commitment to using what research tells us about how people make decisions to better serve Americans and improve government efficiency.</p>
     </div>
   </div>
 </section>
@@ -29,6 +41,4 @@ layout: base
   </div>
 </section>
 
-<section>
-  {% include contact.html %}
-</section>
+{% include contact.html %}
