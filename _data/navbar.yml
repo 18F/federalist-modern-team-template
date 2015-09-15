@@ -1,0 +1,8 @@
+- name: About
+  permalink: '/about/'
+- name: Approach
+  permalink: '/approach/'
+- name: Work
+  permalink: '/work/'
+- name: Connect
+  permalink: '/connect/'
