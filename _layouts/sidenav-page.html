@@ -9,7 +9,7 @@ layout: base
           <li>
             {{ project.permalink }}
             {% if page.permalink == project.link %}
-              <a class="usa-current-page" href="{{ project.link | prepend: site.baseurl }}">{{ project.title }}</a>
+              <a class="usa-current" href="{{ project.link | prepend: site.baseurl }}">{{ project.title }}</a>
             {% else %}
               <a href="{{ project.link | prepend: site.baseurl }}">{{ project.title }}</a>
             {% endif %}
