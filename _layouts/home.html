@@ -5,7 +5,7 @@ layout: base
 <section>
   <div id="main" tabindex="-1" class="hero-unit" style="background-image: url('{{ page.hero-image | prepend: site.baseurl }}')">
     <div class="usa-grid">
-      <div class="usa-width-whole hero-content">
+      <div class="hero-content">
         <h1>{{ page.hero-text }}</h1>
         <a class="usa-button" href="{{ page.hero-button-link | prepend: site.baseurl }}">{{ page.hero-button-text }}</a>
       </div>
@@ -38,7 +38,7 @@ layout: base
 </section>
 {% endif %}
 
-<section class="content">
+<section>
   <div class="usa-grid">
     <div class="usa-width-one-whole usa-end-row">
       {{ content }}
