@@ -13,9 +13,9 @@ banner-button-link: /about/
 
 
 
----
 
-**GSA** helps keep the nation safe by providing tools, equipment, and non-tactical vehicles to the U.S. military, and providing state and local governments with law enforcement equipment, firefighting and rescue equipment, and disaster recovery products and services.
+---
+**![logo.png]({{ site.baseurl }}/https://raw.githubusercontent.com/el-mapache/federalist-modern-team-template/master/assets/logo.png)GSA** helps keep the nation safe by providing tools, equipment, and non-tactical vehicles to the U.S. military, and providing state and local governments with law enforcement equipment, firefighting and rescue equipment, and disaster recovery products and services.
 
 **Only** one percent of GSA’s total budget is provided through direct congressional appropriations. The majority of GSA's operating costs are recovered through the products and services it provides.
 
