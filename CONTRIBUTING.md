@@ -1,5 +1,3 @@
-!\[logo.png\]({{ site.baseurl }}/https://raw.githubusercontent.com/el-mapache/federalist-modern-team-template/master/assets/logo.png)
-
 ## Welcome!
 
 ![logo.png]({{ site.baseurl }}/https://raw.githubusercontent.com/el-mapache/federalist-modern-team-template/master/assets/logo.png)
