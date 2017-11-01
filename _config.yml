@@ -2,9 +2,11 @@
 title: Your Site Name
 description: A description of your website that will show up in search indexes and social media shares.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://example.gov" # the base hostname & protocol for your site
+url: "https://federalist-modern-team-template.18f.gov" # the base hostname & protocol for your site
 logo: /assets/img/logo-main.gif
 feature_image: /assets/img/feature-background.jpg
+org_name: 18f
+repo_name: federalist-modern-team-template
 
 colors:
   background: '#ffffff'
@@ -84,7 +86,8 @@ footer:
     facebook: 18f
     youtube: 18f
     rss: 18f
-  text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>. # Change to a tag line for your agency
+  text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>.
+ # Change to a tag line for your agency
 
 # Build settings
 markdown: kramdown
