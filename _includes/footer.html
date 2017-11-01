@@ -21,7 +21,7 @@
           <img class="usa-footer-logo-img" src="{{ site.footer.image | prepend: site.baseurl }}" alt="Logo image">
         {% endif %}
         {% if site.footer.text %}
-          <p>{{ site.footer.text }}</p>
+          <p>{{ site.footer.text }} <a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}" target="_blank">Suggest an edit</a>.</p>
         {% endif %}
       </div>
 
