@@ -1,5 +1,7 @@
 # Modern Team Template for Federalist
 
+*development moved to https://github.com/18F/federalist-uswds-jekyll*
+
 This is a Jekyll site. It is a simple site to showcase the work of an organization with a few different page types.
 
 This particular site is made for use with the [Federalist](https://github.com/18f/federalist) in mind.
